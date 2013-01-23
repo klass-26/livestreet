@@ -28,7 +28,7 @@ Upgrading from 0.5.1
 2. Copy files to the engine to the desired directory site
 3. Copy the file to a new directory on your config.local.php old version 0.5.1 and copy the directory /uploads/ all files
 4. Enter the address http://you_site/install/
-5. Follow the instructions of the installer. When you create the database required By clicking the "Convert base 0.5.1 in 1.0.1"
+5. Follow the instructions of the installer. When you create the database required By clicking the "Convert base 0.5.1 in 1.0.2"
 
 Upgrading from 1.0
 0. Be sure to make backup of your site and database

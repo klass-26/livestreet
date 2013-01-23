@@ -15,7 +15,7 @@
 */
 
 
-LiveStreet 1.0.1
+LiveStreet 1.0.2
 
 INSTALLATION
 1. Copy files to the engine to the desired directory site
@@ -24,7 +24,7 @@ INSTALLATION
 
 Upgrading from 0.5.1
 0. Be sure to make backup of your site and database
-1. Update to version 1.0.1 can only database, so copy the new version over the old NOT to install, use a clean directory
+1. Update to version 1.0.2 can only database, so copy the new version over the old NOT to install, use a clean directory
 2. Copy files to the engine to the desired directory site
 3. Copy the file to a new directory on your config.local.php old version 0.5.1 and copy the directory /uploads/ all files
 4. Enter the address http://you_site/install/
@@ -33,8 +33,11 @@ Upgrading from 0.5.1
 Upgrading from 1.0
 0. Be sure to make backup of your site and database
 1. Delete old files (except /config/config.local.php and directory /uploads/ all files) and copy the new files to a directory site
-2.1 Enter the address http://you_site/install/ and to step in creating a database to mark checkbox "Convert 1.0 DB to 1.0.1 "
-2.2 Or execute the SQL patch /install/convert_1.0_to_1.0.1.sql in phpMyAdmin or via the console MySQL, replacing prefix tables (prefix_) in the database on your
+2.1 Enter the address http://you_site/install/ and to step in creating a database to mark checkbox "Convert 1.0 DB to 1.0.2 "
+2.2 Or execute the SQL patch /install/convert_1.0_to_1.0.2.sql in phpMyAdmin or via the console MySQL, replacing prefix tables (prefix_) in the database on your
+
+Upgrading from 1.0.1
+1. Overwrite files from the new archive (you may not overwrite directory /templates/skin/)
 
 
 
